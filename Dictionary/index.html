@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinit Online Dictionary</title>
+  </head>
+  <body>
+    <h1>Online Dictionary for Intermediates</h1>
+    <form>
+      <h3>Add a New Word</h3>
+      Name : <input type="text" name="user" id="user_name" /><br /><br />
+      New Word : <input type="text" name="new_word" id="new_word" /><br /><br />
+      Definition :
+      <input type="text" name="definition" id="definition" /><br /><br />
+      <button type="button" id="submit">Submit</button>
+    </form>
+
+    <form>
+      <h3>All words with Definition</h3>
+      <table id="op_table" border="1">
+        <tr>
+          <th>Words</th>
+          <th>Definition</th>
+          <th>Added by</th>
+        </tr>
+        <tr></tr>
+      </table>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
